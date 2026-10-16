@@ -1,0 +1,21 @@
+.parent img
+{
+display: contents;
+width: 100px;
+height: 100px;
+border-radius: 20px;
+
+}
+div img{
+
+width: 200px;
+height: 200px;
+object-fit: contain;
+}
+ 
+ .class {
+    border: 10px solid black;
+    border-radius: 10px;
+
+
+ }

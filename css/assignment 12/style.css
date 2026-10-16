@@ -1,0 +1,20 @@
+.abc{
+    height: 80vh;
+    width: 100%;
+    object-fit: contain;
+  
+}
+.section{
+    background-color: rgb(52, 7, 74);
+    padding: 10px;
+}
+.part2{
+    background-color: cadetblue;
+    padding: 20px;
+    
+}
+.part3{
+    background-color: darkslategrey;
+   margin: auto;
+    padding: 15px;
+}

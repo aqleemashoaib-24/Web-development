@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.header{
+    display: flex;
+    background-color: rgb(61, 54, 54);
+    color: white;
+    padding: 20px;
+    font-size: x-large;
+    justify-content: space-around;
+    align-items: center;
+}
+.h1{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.section{
+    display: flex;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    font-size: large;
+    justify-content: space-around;
+    align-items: center;
+}
+.s1{
+   padding: 20px;
+    width: 40%; 
+}
+.btn{
+    padding: 10px;
+    background-color: rgb(230, 200, 29);
+    color: white;
+    border: none;
+    width: 30%;
+    font-size: large;
+    border-radius: 20px;
+}
+.container{
+    background-color: white;
+    color: black;
+    padding: 50px;
+    gap: 20px;
+}
+h2 {
+    font-size: 40px;
+    color: #333;
+    margin: 20px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.card {
+    width: 30%;
+}
+.image-box {
+    width: 70%;
+    height: 150px;
+    background-color: #292929;
+    margin-bottom: 10px;
+}
+.card h3 {
+    font-size:larger ;
+    color: #444;
+    margin-bottom: 7px;
+}
+.card p {
+    font-size:larger;
+    line-height: 12px;
+    color: #666;
+    margin-bottom: 12px;
+    width: 150px;
+}
+button {
+    background-color: #f5822a;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 20px;
+    font-size:larger;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.footer{
+    padding: 20px;
+    background-color:  rgb(61, 54, 54);
+    display: flex;
+    color:white ;
+    width: 100% ;
+
+}
+.fh1{
+    color: white;
+
+}

@@ -1,0 +1,167 @@
+.main {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    justify-content: center;
+
+}
+
+img {
+    height: 500px;
+}
+
+.top {
+    margin: 60%;
+    margin-top: 5%;
+    height: 50%;
+    width: 20%;
+    border-color: black;
+    align-items: center;
+
+}
+
+h1 {
+    padding: 0%;
+    color: black;
+    font-style: italic;
+    font-family: cursive;
+    text-align: center;
+}
+
+input {
+    padding: 0px;
+    margin: 03%;
+    height: 30px;
+    width: 90%;
+    text-align: center;
+}
+
+button {
+    background-color: #52b3f9;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0px;
+    margin: 03%;
+    height: 30px;
+    width: 90%
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 10px;
+}
+
+.or span {
+    height: 1px;
+    background-color: #000000;
+    flex: 1;
+}
+
+.or p {
+    font-size: 12px;
+    color: #656262;
+    font-weight: bold;
+}
+
+.facebook {
+    display: block;
+    text-align: center;
+    color: #2c4883;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    letter-spacing: 0px;
+}
+
+.facebook b {
+    display: inline-block;
+    background-color: #2c4883;
+    color: white;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.forgot {
+    font-weight: bold;
+    text-align: center;
+    color: #385185;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.bottom {
+    margin-top: 08px;
+    margin: auto;
+    padding: 3px;
+    ;
+    height: 20%;
+    width: 80%;
+    border-color: black;
+    gap: 10px;
+    inline-size: auto;
+    text-align: center;
+
+}
+
+.app-section {
+    text-align: center;
+    margin-top: 22px;
+}
+
+.app-section p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.apps {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.app-store,
+.google-play {
+    width: 138px;
+    height: 42px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 7px;
+}
+
+.app-store {
+    background-color: #000;
+}
+
+.google-play {
+    background-color: #000;
+}
+
+.apps small {
+    display: block;
+    font-size: 8px;
+    text-align: left;
+}
+
+.apps strong {
+    display: block;
+    font-size: 14px;
+    text-align: left;
+}
+
+.apple {
+    font-size: 20px;
+}
+
+.play {
+    color: #00c6ff;
+    font-size: 20px;
+}

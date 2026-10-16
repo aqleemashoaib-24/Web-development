@@ -1,0 +1,298 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(48, 43, 43);
+    color: white;
+    padding: 20px;
+    font-size: x-large;
+    justify-content: space-around;
+    align-items: center;
+}
+.h1{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    font-size: large;
+    
+}
+.sech1{
+    color: black;
+}
+.s1{
+   padding: 20px;
+    width: 40%; 
+}
+.btn{
+    padding: 10px;
+    background-color: rgb(230, 200, 29);
+    color: white;
+    border: none;
+    width: 30%;
+    font-size: large;
+    border-radius: 20px;
+}
+.container{
+    background-color: white;
+    color: black;
+    padding: 50px;
+    gap: 20px;
+}
+h2 {
+    font-size: 40px;
+    color: #333;
+    margin: 20px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.card {
+    width: 30%;
+}
+.image-box {
+    width: 70%;
+    height: 150px;
+    background-color: #292929;
+    margin-bottom: 10px;
+}
+.card h3 {
+    font-size:larger ;
+    color: #444;
+    margin-bottom: 7px;
+}
+.card p {
+    font-size:larger;
+    line-height: 12px;
+    color: #666;
+    margin-bottom: 12px;
+    width: 150px;
+}
+button {
+    background-color: #f5822a;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 20px;
+    font-size:larger;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.footer {
+    margin: 0%;
+    background-color: #333;
+    display: flex;
+    width: 100%;
+  gap: 60px;
+align-items:flex-start;
+  padding: 20px;
+  margin-top:10px ;
+    justify-content: space-around;
+
+    
+}
+.fright ,ul{
+    align-items: center;
+    list-style: none;
+}
+.fright img{
+    height: 20px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+}
+.r1 ,h1 {
+    color: white;
+   text-align: left;
+   padding: 20px;
+   align-items: center;
+}
+.fcenter{
+   color: white;
+   text-align: left;
+   padding: 20px;
+   width: 40%;
+
+}
+.fright{
+     color: white;
+   text-align: left;
+   padding: 20px;
+}
+.ficons{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and ( max-width: 1000px) 
+{
+  .navbar{
+    background-color: rgb(48, 43, 43);
+    color: white;
+    padding: 20px;
+    font-size: x-large;
+    flex-direction: column;
+}
+.h1{
+    flex-direction: column;
+    width: 40%;
+}
+  
+    .section{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    font-size: large;
+
+}
+.s1{
+   padding: 20px;
+    width: 40%; 
+}
+.btn{
+    padding: 10px;
+    background-color: rgb(230, 200, 29);
+    color: white;
+    border: none;
+    width: 60%;
+    font-size: large;
+    border-radius: 20px;
+}
+.s2 img{
+width: 90%;
+object-fit: contain;
+}
+.container{
+    background-color: white;
+    color: black;
+     flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+}
+h2 {
+    font-size: 40px;
+    color: #333;
+     flex-direction: column;
+    margin: 20px;
+}
+.card-container {
+    flex-direction: column;
+    gap: 20px;
+}
+.card {
+    width: 80%;
+     flex-direction: column;
+}
+.image-box {
+    width: 70%;
+    height: 150px;
+     flex-direction: column;
+    background-color: #292929;
+    margin-bottom: 10px;
+}
+.card h3 {
+    font-size:larger ;
+    color: #444;
+     flex-direction: column;
+    margin-bottom: 7px;
+}
+.card p {
+    font-size:larger;
+    line-height: 12px;
+     flex-direction: column;
+    color: #666;
+    margin-bottom: 12px;
+    width: 150px;
+}
+button {
+    background-color: #f5822a;
+    color: white;
+    flex-direction: column;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 20px;
+    font-size:larger;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    margin: 0%;
+   background-color: rgb(48, 43, 43);
+
+    width: 100%;
+  flex-direction: column;
+    
+}
+.fright ,ul{
+    align-items: center;
+     flex-direction: column;
+    list-style: none;
+}
+
+
+.fright img{
+    height: 20px;
+    width: 20%;
+     flex-direction: column;
+    
+    object-fit: contain;
+}
+.r1 , h1{
+    color: white;
+   text-align: left;
+   flex-direction: column;
+   padding: 20px;
+   align-items: center;
+}
+.fcenter{
+     color: white;
+   text-align: left;
+    flex-direction: column;
+   padding: 20px;
+   width: 40%;
+
+}
+.fright{
+     color: white;
+   text-align: left;
+    flex-direction: column;
+   padding: 20px;
+}
+.ficons{
+    font-size: 20px;
+     flex-direction: column;
+    color: white;
+}
+
+
+
+
+
+
+}

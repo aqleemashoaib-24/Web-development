@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0%;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    color: whitesmoke;
+}
+
+.navbar img {
+    height: 80px;
+    object-fit: contain;
+    width: 50%;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: larger;
+}
+
+.gf {
+    border: 2px solid white;
+    padding: 07px;
+    width: 18%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.oo {
+    border-radius: 20px;
+    width: 18%;
+    background-color: darkred;
+    padding: 07px;
+    text-align: center;
+}
+
+.section {
+    background-color: black;
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+.note {
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.note1 {
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+}
+
+b {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.cardbox {
+    justify-content: space-around;
+    display: flex;
+}
+
+.card {
+    margin: auto;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.cardkeoption {
+    justify-content: space-around;
+    display: flex;
+    padding: 20px;
+}
+
+.option1,
+.option2 {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 10%;
+}
+
+.section1 {
+    background-color: rgb(21, 21, 21);
+    color: white;
+    padding: 60px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.part2 img {
+    padding: 20px;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    object-fit: contain;
+}
+
+.part2 {
+    display: flex;
+    padding: 20px;
+}
+
+.part2left {
+    padding: 20px;
+    text-align: left;
+}
+
+.btnp2l {
+    width: 50%;
+    padding: 05%;
+    border: 1px solid white;
+    border-radius: 35px;
+}
+
+.part3right {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.part4 {
+    padding: 20px;
+    height: 40px;
+    width: 40%;
+}
+
+.part3left img {
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    object-fit: contain;
+}
+
+h3 {
+    letter-spacing: 12px;
+}
+
+.part3text {
+    text-align: left;
+    padding: 20px;
+}
+
+.btnp3r {
+    width: 38%;
+    padding: 05%;
+    border: 1px solid white;
+    border-radius: 35px;
+}
+
+.section2 {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.s1 {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(47, 45, 45);
+    width: 95%;
+}
+
+.s1 p {
+    padding: 20px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.s2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+}
+
+.restaurant-card {
+    width: 30%;
+}
+
+.restaurant-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.s2text {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.s2text h4 {
+    color: red;
+    letter-spacing: 05%;
+    margin: 0 0 15px 0;
+}
+
+.s2text b {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+.btns2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}

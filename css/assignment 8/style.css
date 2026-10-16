@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: snow;
+}
+.header {
+    height: 100px;
+    background: #3b5998;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo {
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+.login-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.login-box {
+    display: flex;
+    flex-direction: column;
+}
+.login-box label {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+.login-box input {
+    width: 150px;
+    height: 24px;
+    border: 1px solid #1d2d50;
+}
+.password-box a {
+    color: #cbd3e4;
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 3px;
+}
+.login-btn {
+    margin-top: 18px;
+    background: #4267b2;
+    color: white;
+    border: 1px solid #29487d;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.main-container {
+    width: 990px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.left-section {
+    width: 52%;
+}
+.left-section h1 {
+    font-size: 30px;
+    line-height: 1.3;
+    color: #333;
+    margin-bottom: 45px;
+}
+.feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.icon {
+    width: 60px;
+    font-size: 45px;
+    margin-right: 15px;
+}
+.feature p {
+    font-size: 18px;
+    color: #444;
+}
+.feature strong {
+    margin-right: 8px;
+}
+.feature span {
+    color: #555;
+    font-size: 14px;
+}
+.right-section {
+    width: 400px;
+}
+.right-section h2 {
+    font-size: 36px;
+    color: #222;
+    margin-bottom: 5px;
+}
+.subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 25px;
+}
+.name-inputs {
+    display: flex;
+    gap: 10px;
+}
+.name-inputs input {
+    width: 50%;
+}
+input,select {
+    font-size: 18px;
+    padding: 8px;
+    border: 2px  #bdc7d8;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.full-input {
+    width: 100%;
+}
+.right-section h3 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+    margin: 10px 0;
+}
+.birthday {
+    display: flex;
+}
+.birthday select {
+    font-size: 14px;
+    padding: 6px;
+    border-radius: 0;
+    margin-right: 2px;
+}
+.gender {
+    margin: 5px 0 15px;
+}
+.gender label {
+    font-size: 18px;
+    margin-right: 15px;
+}
+.gender input {
+    margin-right: 5px;
+}
+.terms {
+    width: 330px;
+    font-size: 18px;
+    color: #777;
+    line-height: 1.4;
+    margin-bottom: 18px;
+}
+.terms a,.page-text a {
+    color: #385898;
+    text-decoration: none;
+}
+.create-btn {
+    width: 195px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: 1px  #3b6e22;
+    border-radius: 5px;
+    background: #578843;
+   cursor: pointer;
+}
+.right-section hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+.page-text {
+    font-size: 13px;
+    color: #555;
+}
+.page-text a {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

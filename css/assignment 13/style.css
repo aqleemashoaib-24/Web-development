@@ -1,0 +1,12 @@
+.section{
+    margin: auto;
+    padding: 60px;
+    text-align: center;
+}
+.text-body-secondary{
+    text-align: right;
+}
+.col{
+    width: 50%;
+    height: 60px;
+}
